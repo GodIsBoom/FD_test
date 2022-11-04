@@ -1,7 +1,7 @@
 PROJECT(infer_demo C CXX)
 CMAKE_MINIMUM_REQUIRED (VERSION 3.12)
 
-include(fastdeploy-linux-x64-0.4.0/FastDeploy.cmake)
+include(fastdeploy_cpp_sdk/FastDeploy.cmake)
 
 # Add FastDeploy dependency header files
 include_directories(${FASTDEPLOY_INCS})
